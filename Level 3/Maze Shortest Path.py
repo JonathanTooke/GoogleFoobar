@@ -1,6 +1,3 @@
-#I later realised that dijkstra may have been a more efficient algorithm
-#as this calculates all possible paths, but it is still in the same efficiency
-#class as dikstra, running in polynomial time. 
 def solution(m):
     maps = generate_maps(m)
     s_path = len(m) * len(m[0]) + 1
