@@ -62,6 +62,3 @@ def map_number_to_index(number):
 
 def map_index_to_number(x, y):
     return y*8 + x
-
-if __name__ == "__main__":
-    print(solution(0,17))
